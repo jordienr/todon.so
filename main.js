@@ -1,11 +1,10 @@
 import './style.css';
 
 const env = process.env.NODE_ENV;
-const subdomain = window.location.hostname.split('.')[ 0 ];
+const host = window.location.hostname;
+const subdomain = host.split('.')[ 0 ];
 
-
-// Redirect to mastodon.social/{subdomain}
-if (env === 'production' && subdomain !== 'todon.so') {
+if (host.split('.').length > 2) {
   window.location.href = `https://mastodon.social/@${subdomain}`;
 } else {
   const info = document.getElementById('info');
