@@ -3,7 +3,7 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   /*Gradient bg */
-  background: linear-gradient(180deg, #0c0c0c 0%, #232323 100%);
+  background: linear-gradient(180deg, #0c0c0c 0%, #161617 100%);
   color: rgba(240, 234, 234, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,9 +14,11 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
+  margin: 0;
 }
 h1 {
+  font-size: 2rem;
   font-weight: 400;
   color: white;
 }
