@@ -1,0 +1,33 @@
+/** @format */
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  /*Gradient bg */
+  background: linear-gradient(180deg, #0c0c0c 0%, #232323 100%);
+  color: rgba(240, 234, 234, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h1 {
+  font-weight: 400;
+  color: white;
+}
+
+h2 {
+  margin-top: 4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: #fff;
+}
